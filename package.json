@@ -1,0 +1,25 @@
+{
+  "name": "email-template",
+  "version": "1.0.0",
+  "description": "This is a complete mailing template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clovissocial/Email-template.git"
+  },
+  "author": "Clovis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clovissocial/Email-template/issues"
+  },
+  "homepage": "https://github.com/clovissocial/Email-template#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7",
+    "nodemailer": "^6.6.2",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
